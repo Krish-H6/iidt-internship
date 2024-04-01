@@ -1,0 +1,26 @@
+Full-Stack Weather Checking App
+Abstract: 
+Overview
+The full-stack weather checking app is designed to provide real-time weather information to users. It combines frontend and backend technologies to deliver accurate weather data based on the user’s location. Let’s delve into the key features and components of this application.
+Key Features
+1.User Location Display: The app displays the user’s current location, allowing them to quickly access local weather information.
+2.Current Temperature: Users can view the current temperature for their location, helping them plan their day accordingly.
+3.Min and Max Temperatures: The app also presents the minimum and maximum temperatures expected for the day, aiding users in preparing for temperature fluctuations.
+4.Weather Description: Users receive a concise description of the current weather conditions, such as “Sunny,” “Rainy,” or other relevant terms.
+5.Eye-Catching Visuals: To enhance user experience, the app includes eye-catching visuals that correspond to the current weather. Whether it’s a bright sun or a rainy cloud, the visuals provide an intuitive representation.
+Languages Used
+Frontend
+HTML, CSS, and JavaScript: These frontend technologies create the user interface and handle user interactions.
+CSS: We use Tailwind CSS for faster styling, ensuring a visually appealing design.
+Backend
+Node.js and Express.js: Our backend server handles requests from the frontend and communicates with external APIs.
+OpenWeather API: We integrate with the OpenWeather API to fetch real-time weather data for any location.
+Navigator.geolocation Web API: This API determines the user’s GPS coordinates, enabling accurate weather data retrieval.
+Workflow
+1.User visits the web application.
+2.The browser prompts the user to allow location access.
+3.Once granted, the app retrieves the user’s approximate GPS coordinates.
+4.Our backend server receives the coordinates.
+5.The server sends a request to the OpenWeather API for weather data.
+6.The frontend updates the UI with the retrieved weather information.
+By combining frontend and backend technologies, our full-stack weather app provides a seamless experience for users seeking up-to-date weather details.
